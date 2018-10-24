@@ -15,3 +15,13 @@ def weather(city):
 
 	return (text)
 
+
+def main_loop(self):
+        '''
+        The main loop to keep the program running and waiting for commands
+        '''
+        while True:
+            self.parse_data()
+            self.ping_pong()
+            self.check_command()
+
